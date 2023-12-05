@@ -55,7 +55,7 @@ const AboutSection = () => {
     });
   };
   return (
-    <section className="text-white">
+    <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about.png"
@@ -65,10 +65,13 @@ const AboutSection = () => {
         ></Image>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            modi molestiae facilis assumenda tenetur eligendi ut numquam
-            repudiandae odit eveniet!
+          <p className="text-base lg:text-lg text-justify">
+            I am an Informatics Engineering student who is passionate and
+            committed to developing skills in the world of Information
+            Technology. I have a strong understanding of some programming
+            languages, especially for front-end website development. I have
+            already done some projects for websites based on HTML, CSS (Vanilla
+            and Tailwind), PHP, and JS (Vanilla, React, and Next).
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

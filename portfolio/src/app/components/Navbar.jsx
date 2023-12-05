@@ -1,5 +1,4 @@
 "use client";
-import { Link } from "react-scroll";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -22,15 +21,21 @@ const navLinks = [
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const scrollToTop = (event) => {
+    event.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212]">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link
-          href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
-        >
-          Ryudhis
-        </Link>
+        <a href={"/"} onClick={scrollToTop}>
+          <button className="text-2xl md:text-5xl text-white font-semibold">
+            Ryudhis
+          </button>
+        </a>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
