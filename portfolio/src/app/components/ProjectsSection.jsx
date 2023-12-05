@@ -15,7 +15,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Amazone Clone",
+    title: "Amazon Clone",
     description: "Mainly focusing on HTML, CSS, and Javascript",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
