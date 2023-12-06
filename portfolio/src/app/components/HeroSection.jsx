@@ -6,14 +6,14 @@ import { Link, scroller } from "react-scroll";
 import dynamic from "next/dynamic";
 
 const HeroSection = () => {
-  const scrollTo = dynamic((offset) => {
-    scroller.scrollTo("scroll-to-element", {
-      duration: 800,
-      delay: 0,
-      smooth: "easeInOutQuart",
-      offset: offset,
-    });
-  });
+  // const scrollTo = dynamic((offset) => {
+  //   scroller.scrollTo("scroll-to-element", {
+  //     duration: 800,
+  //     delay: 0,
+  //     smooth: "easeInOutQuart",
+  //     offset: offset,
+  //   });
+  // });
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -40,7 +40,12 @@ const HeroSection = () => {
               offset={0}
               duration={500}
               className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 bg-white hover:bg-slate-200 text-white"
-              onClick={scrollTo()}
+              onClick={scroller.scrollTo("scroll-to-element", {
+                duration: 800,
+                delay: 0,
+                smooth: "easeInOutQuart",
+                offset: 0,
+              })}
             >
               Hire Me
             </Link>
