@@ -1,3 +1,4 @@
+"use client";
 import { Link, scroller } from "react-scroll";
 
 const NavLink = ({ href, title }) => {
