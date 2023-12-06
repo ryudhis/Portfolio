@@ -29,8 +29,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] mb-6 text-base sm:text-lg lg:text-xl">
-            My name is Arya Yudhistira, and I am currently studying at Institute
-            Technology Sumatera.
+            My name is Arya Yudhistira, a front-end web developer, and I am
+            currently studying at Institute Technology Sumatera.
           </p>
           <div>
             <Link
