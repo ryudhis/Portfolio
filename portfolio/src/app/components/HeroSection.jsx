@@ -3,16 +3,17 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { Link, scroller } from "react-scroll";
+import dynamic from "next/dynamic";
 
 const HeroSection = () => {
-  const scrollTo = (offset) => {
+  const scrollTo = dynamic((offset) => {
     scroller.scrollTo("scroll-to-element", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
       offset: offset,
     });
-  };
+  });
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">

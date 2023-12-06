@@ -1,15 +1,15 @@
-"use client";
+import dynamic from "next/dynamic";
 import { Link, scroller } from "react-scroll";
 
 const NavLink = ({ href, title }) => {
-  const scrollTo = (offset) => {
+  const scrollTo = dynamic((offset) => {
     scroller.scrollTo("scroll-to-element", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
       offset: offset,
     });
-  };
+  });
   return (
     <Link
       to={href}
