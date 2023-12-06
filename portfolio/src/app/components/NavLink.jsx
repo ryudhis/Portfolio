@@ -1,25 +1,25 @@
+import { Link, scroller } from "react-scroll";
+
 const NavLink = ({ href, title }) => {
-  const scrollToSection = (event) => {
-    event.preventDefault();
-
-    const targetId = event.currentTarget.getAttribute("href").substring(1);
-    const targetElement = document.getElementById(targetId);
-
-    if (targetElement) {
-      window.scrollTo({
-        top: targetElement.offsetTop,
-        behavior: "smooth",
-      });
-    }
+  const scrollTo = (offset) => {
+    scroller.scrollTo("scroll-to-element", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+      offset: offset,
+    });
   };
   return (
-    <a
-      href={href}
-      className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
-      onClick={scrollToSection}
+    <Link
+      to={href}
+      smooth={true}
+      offset={0}
+      duration={650}
+      className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white cursor-pointer"
+      onClick={scrollTo()}
     >
       {title}
-    </a>
+    </Link>
   );
 };
 
