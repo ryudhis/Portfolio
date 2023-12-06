@@ -2,18 +2,21 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import { Link, scroller } from "react-scroll";
-import dynamic from "next/dynamic";
 
 const HeroSection = () => {
-  // const scrollTo = dynamic((offset) => {
-  //   scroller.scrollTo("scroll-to-element", {
-  //     duration: 800,
-  //     delay: 0,
-  //     smooth: "easeInOutQuart",
-  //     offset: offset,
-  //   });
-  // });
+  const scrollToSection = (event) => {
+    event.preventDefault();
+
+    const targetId = event.currentTarget.getAttribute("href").substring(1);
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -34,21 +37,11 @@ const HeroSection = () => {
             currently studying at Institute Technology Sumatera.
           </p>
           <div>
-            <Link
-              to="contact"
-              smooth={true}
-              offset={0}
-              duration={500}
-              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 bg-white hover:bg-slate-200 text-white"
-              onClick={scroller.scrollTo("scroll-to-element", {
-                duration: 800,
-                delay: 0,
-                smooth: "easeInOutQuart",
-                offset: 0,
-              })}
-            >
-              Hire Me
-            </Link>
+            <a href="#contact" onClick={scrollToSection}>
+              <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 bg-white hover:bg-slate-200 text-white">
+                Hire Me
+              </button>
+            </a>
             <a href="CV-AryaYudhistira.pdf" download="CV.pdf">
               <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
                 <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

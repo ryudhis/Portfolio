@@ -1,31 +1,25 @@
-import dynamic from "next/dynamic";
-import { Link, scroller } from "react-scroll";
-
 const NavLink = ({ href, title }) => {
-  // const scrollTo = dynamic((offset) => {
-  //   scroller.scrollTo("scroll-to-element", {
-  //     duration: 800,
-  //     delay: 0,
-  //     smooth: "easeInOutQuart",
-  //     offset: offset,
-  //   });
-  // });
+  const scrollToSection = (event) => {
+    event.preventDefault();
+
+    const targetId = event.currentTarget.getAttribute("href").substring(1);
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
   return (
-    <Link
-      to={href}
-      smooth={true}
-      offset={0}
-      duration={650}
-      className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white cursor-pointer"
-      onClick={scroller.scrollTo("scroll-to-element", {
-        duration: 800,
-        delay: 0,
-        smooth: "easeInOutQuart",
-        offset: 0,
-      })}
+    <a
+      href={href}
+      className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
+      onClick={scrollToSection}
     >
       {title}
-    </Link>
+    </a>
   );
 };
 
