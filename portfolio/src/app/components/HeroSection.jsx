@@ -25,15 +25,11 @@ const HeroSection = () => {
             currently studying at Institute Technology Sumatera.
           </p>
           <div>
-            <Link
-              to="contact"
-              smooth={true}
-              offset={-120}
-              duration={500}
-              className="cursor-pointer px-6 py-3.5 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 bg-white hover:bg-slate-200 text-white"
-            >
-              Hire Me
-            </Link>
+            <button className="cursor-pointer px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 bg-white hover:bg-slate-200 text-white">
+              <Link to="contact" smooth={true} offset={-120} duration={500}>
+                Hire Me
+              </Link>
+            </button>
             <a href="CV-AryaYudhistira.pdf" download="CV.pdf">
               <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
                 <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
