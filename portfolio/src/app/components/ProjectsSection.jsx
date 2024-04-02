@@ -40,6 +40,15 @@ const projectsData = [
     gitUrl: "https://github.com/Kaben011201/TUBES_KAPITA_SELEKTA_09_2023",
     demoUrl: "",
   },
+  {
+    id: 5,
+    title: "Dicodit - Dicoding Reddit Forum",
+    description: "Mainly focusing on ReactJS and API Integration",
+    image: "/images/projects/5.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ryudhis/dicodit",
+    demoUrl: "https://dicodit.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
