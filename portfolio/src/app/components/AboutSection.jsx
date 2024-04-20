@@ -41,7 +41,8 @@ const TAB_DATA = [
         </li>
         <li>TOEIC (2019): 820/990 Score</li>
         <li>Digital Talent Scholarship: Junior Mobile Programmer (2019)</li>
-        <li>React Basics (2024) from Meta</li>
+        <li>Advanced React (2024) from Meta</li>
+        <li>React Expert (2024) from Dicoding</li>
       </ul>
     ),
   },
