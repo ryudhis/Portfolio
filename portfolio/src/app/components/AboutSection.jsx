@@ -72,12 +72,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am an informatics engineering student who is enthusiastic to learn
-            everything about information technology. I am well-versed in several
-            programming languages, particularly those used in front-end website
-            development. I have already done some projects for websites based on
-            HTML, CSS (Vanilla and Tailwind), PHP, and JS (Vanilla, ReactJS, and
-            NextJS).
+            I am a passionate Informatics Engineering student with a strong
+            foundation in web development. My enthusiasm for information
+            technology fuels my desire to continuously learn and stay ahead of
+            the curve. I possess proficiency in various programming languages,
+            with a particular focus on front-end development. My experience
+            includes building website projects using HTML, CSS (Vanilla and
+            Tailwind), PHP, and JavaScript (Vanilla, React.js, and Next.js).
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
