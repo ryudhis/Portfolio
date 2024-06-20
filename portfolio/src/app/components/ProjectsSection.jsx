@@ -34,7 +34,7 @@ const projectsData = [
   {
     id: 4,
     title: "Posyandu Mawar I Way Huwi Management Website",
-    description: "Mainly focusing on NextJS",
+    description: "Mainly focusing on Next.js and TailwindCSS",
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Kaben011201/TUBES_KAPITA_SELEKTA_09_2023",
@@ -48,6 +48,16 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ryudhis/dicodit",
     demoUrl: "https://dicodit.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Otak-Atik: Aplikasi Belajar Untuk Semua",
+    description:
+      "Mainly focusing on Next.js, Typescript, and TailwindCSS as Frontend and Next.js, Prisma, and CockroackDB as Backend",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ryudhis/Otak-Atik",
+    demoUrl: "https://Otak-Atik.vercel.app/",
   },
 ];
 
