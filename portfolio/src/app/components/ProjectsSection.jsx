@@ -43,7 +43,7 @@ const projectsData = [
   {
     id: 5,
     title: "Dicodit - Dicoding Reddit Forum",
-    description: "Mainly focusing on ReactJS and API Integration",
+    description: "Mainly focusing on ReactJS, Redux and API Integration",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ryudhis/dicodit",
