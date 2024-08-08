@@ -15,6 +15,10 @@ const TAB_DATA = [
         <li>PHP</li>
         <li>ReactJS</li>
         <li>NextJS</li>
+        <li>TypeScript</li>
+        <li>Redux</li>
+        <li>Node.js</li>
+        <li>Zustand</li>
         <li>C++</li>
         <li>Java</li>
         <li>Python</li>
@@ -47,6 +51,7 @@ const TAB_DATA = [
         <li>Digital Talent Scholarship: Junior Mobile Programmer (2019)</li>
         <li>Advanced React (2024) from Meta</li>
         <li>React Expert (2024) from Dicoding</li>
+        <li>Best Student SIB Dicoding Cycle 6 React & Back-End Developer</li>
       </ul>
     ),
   },
