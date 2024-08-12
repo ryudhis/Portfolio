@@ -18,6 +18,7 @@ const TAB_DATA = [
         <li>TypeScript</li>
         <li>Redux</li>
         <li>Node.js</li>
+        <li>Prisma</li>
         <li>Zustand</li>
         <li>C++</li>
         <li>Java</li>

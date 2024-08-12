@@ -59,6 +59,25 @@ const projectsData = [
     gitUrl: "https://github.com/ryudhis/Otak-Atik",
     demoUrl: "https://Otak-Atik.vercel.app/",
   },
+  {
+    id: 7,
+    title: "Vocasawer",
+    description: "Mainly focusing on Next.js, TailwindCSS, and Zustand",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    demoUrl: "",
+  },
+  {
+    id: 8,
+    title: "OBE (Outcome-based Education) System ITERA",
+    description:
+      "Mainly focusing on Next.js, Typescript, and TailwindCSS as Frontend and Next.js, Prisma, and CockroackDB as Backend",
+    image: "/images/projects/8.png",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    demoUrl: "",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -86,7 +105,7 @@ const ProjectsSection = () => {
           isSelected={tag === "Web"}
         />
       </div>
-      <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <div className="flex flex-wrap gap-8 justify-center items-center">
         {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}
