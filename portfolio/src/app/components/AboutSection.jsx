@@ -9,17 +9,16 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-4">
-        <li>HTML</li>
-        <li>TailwindCSS</li>
-        <li>Javascript</li>
-        <li>PHP</li>
         <li>ReactJS</li>
         <li>NextJS</li>
+        <li>Javascript</li>
+        <li>TailwindCSS</li>
         <li>TypeScript</li>
         <li>Redux</li>
         <li>Node.js</li>
         <li>Prisma</li>
         <li>Zustand</li>
+        <li>PHP</li>
         <li>C++</li>
         <li>Java</li>
         <li>Python</li>
@@ -46,13 +45,19 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-4">
         <li>
+          Third Best Graduate – August 2025 Judicium Ceremony, Faculty of
+          Industrial Technology, Institut Teknologi Sumatera (2025)
+        </li>
+        <li>
+          Best Student SIB Dicoding Cycle 6 React & Back-End Developer (2024)
+        </li>
+        <li>React Expert (2024) from Dicoding</li>
+        <li>Advanced React (2024) from Meta</li>
+        <li>
           MTA: HTML 5 Application Development Fundamentals (2019): 86/100 Score
         </li>
         <li>TOEIC (2019): 820/990 Score</li>
         <li>Digital Talent Scholarship: Junior Mobile Programmer (2019)</li>
-        <li>Advanced React (2024) from Meta</li>
-        <li>React Expert (2024) from Dicoding</li>
-        <li>Best Student SIB Dicoding Cycle 6 React & Back-End Developer</li>
       </ul>
     ),
   },
@@ -78,13 +83,14 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a passionate Informatics Engineering student with a strong
-            foundation in web development. My enthusiasm for information
-            technology fuels my desire to continuously learn and stay ahead of
-            the curve. I possess proficiency in various programming languages,
-            with a particular focus on front-end development. My experience
-            includes building website projects using HTML, CSS (Vanilla and
-            Tailwind), PHP, and JavaScript (Vanilla, React.js, and Next.js).
+            I am a passionate Full-Stack Engineer with a strong foundation in
+            web development, specializing in building modern web applications
+            using React and Next.js. Proficient in both frontend (React,
+            Next.js, Tailwind, Typescript) and backend (Node.js, Express,
+            Prisma, Typescript) technologies, I enjoy solving technical
+            challenges, creating user-friendly solutions, and delivering
+            impactful digital products. I am currently open to fulltime
+            opportunities and freelance projects in software engineering.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

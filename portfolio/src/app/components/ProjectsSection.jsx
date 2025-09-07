@@ -72,8 +72,18 @@ const projectsData = [
     id: 8,
     title: "OBE (Outcome-based Education) System ITERA",
     description:
-      "Mainly focusing on Next.js, Typescript, and TailwindCSS as Frontend and Next.js, Prisma, and CockroackDB as Backend",
+      "Mainly focusing on Next.js, Typescript, and TailwindCSS as Frontend and Next.js, Prisma, and PostgreSQL as Backend",
     image: "/images/projects/8.png",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    demoUrl: "",
+  },
+  {
+    id: 9,
+    title: "CodeGym",
+    description:
+      "Mainly focusing on Next.js, Typescript, and TailwindCSS as Frontend and Next.js, Prisma, and Supabase as Backend",
+    image: "/images/projects/9.png",
     tag: ["All", "Web"],
     gitUrl: "",
     demoUrl: "",
