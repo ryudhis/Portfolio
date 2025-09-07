@@ -88,10 +88,10 @@ const AboutSection = () => {
             I am a passionate Full-Stack Engineer with a strong foundation in
             web development, specializing in building modern web applications
             using React and Next.js. Proficient in both frontend (React,
-            Next.js, Tailwind, Typescript) and backend (Node.js, Express,
-            Prisma, Typescript) technologies, I enjoy solving technical
+            Next.js, Tailwind, TypeScript) and backend (Node.js, Express,
+            Prisma, TypeScript) technologies, I thrive on solving technical
             challenges, creating user-friendly solutions, and delivering
-            impactful digital products. I am currently open to fulltime
+            impactful digital products. I am currently open to full-time
             opportunities and freelance projects in software engineering.
           </p>
           <div className="flex flex-row justify-start mt-8">
