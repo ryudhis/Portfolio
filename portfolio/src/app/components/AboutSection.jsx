@@ -30,12 +30,14 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-4">
-        <li>Digital Talent Scholarship: Junior Mobile Programmer (2019)</li>
-        <li>Informatics Engineering at Institute Technolgy Sumatera</li>
+        <li>
+          Informatics Engineering at Institute Technolgy Sumatera (2021-2025)
+        </li>
         <li>
           Independent Study Dicoding Cycle 6: React and Back-End Developer
           (2024)
         </li>
+        <li>Digital Talent Scholarship: Junior Mobile Programmer (2019)</li>
       </ul>
     ),
   },
