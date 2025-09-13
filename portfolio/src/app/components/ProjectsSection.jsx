@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
+import { motion } from "framer-motion";
 
 const projectsData = [
   {
@@ -86,7 +87,7 @@ const projectsData = [
     image: "/images/projects/9.png",
     tag: ["All", "Web"],
     gitUrl: "",
-    demoUrl: "",
+    demoUrl: "https://codegym-production.vercel.app/",
   },
 ];
 
@@ -99,7 +100,12 @@ const ProjectsSection = () => {
     project.tag.includes(tag)
   );
   return (
-    <section id="projects">
+    <motion.section
+      id="projects"
+      initial={{ opacity: 0, x: 100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8">
         My Projects
       </h2>
@@ -128,7 +134,7 @@ const ProjectsSection = () => {
           />
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 };
 

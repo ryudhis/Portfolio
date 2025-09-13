@@ -4,6 +4,7 @@ import GithubIcon from "../../../public/github.svg";
 import LinkedinIcon from "../../../public/linkedin.svg";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -38,9 +39,12 @@ const EmailSection = () => {
     }
   };
   return (
-    <section
+    <motion.section
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4"
+      initial={{ opacity: 0, y: -50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
     >
       {/* <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3 -left-4 transform -translate-x-1/2 -translate-y-1/2"></div> */}
       <div>
@@ -121,7 +125,7 @@ const EmailSection = () => {
           )}
         </form>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

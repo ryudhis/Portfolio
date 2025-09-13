@@ -3,10 +3,16 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section id="hero">
+    <motion.section
+      id="hero"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-[33px] sm:text-5xl lg:text-6xl font-extrabold">
@@ -42,7 +48,7 @@ const HeroSection = () => {
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
-              src="/images/hero.png"
+              src="/images/hero.jpg"
               alt="hero image"
               width={300}
               height={300}
@@ -50,7 +56,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
