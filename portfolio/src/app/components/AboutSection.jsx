@@ -102,7 +102,7 @@ const AboutSection = () => {
       className="text-white"
       id="about"
       initial={{ opacity: 0, x: -100 }}
-      animate={{ opacity: 1, x: 0 }}
+      whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
