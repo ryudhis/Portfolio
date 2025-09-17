@@ -64,6 +64,29 @@ const TAB_DATA = [
       </ul>
     ),
   },
+  {
+    title: "Working Experience",
+    id: "working-experience",
+    content: (
+      <ul className="list-disc pl-4">
+        <li>
+          Capstone Final Project as Fullstack Engineer at Institut Teknologi
+          Sumatera (March 2024 - August 2025)
+        </li>
+        <li>
+          Freelance as Frontend Engineer at Eventhings (February 2025 - May
+          2025)
+        </li>
+        <li>
+          Internship as Product Engineer at Dicoding Indonesia (September 2024 -
+          December 2024)
+        </li>
+        <li>
+          Internship as Frontend Engineer at Vocagame (July 2024 - August 2024)
+        </li>
+      </ul>
+    ),
+  },
 ];
 
 const AboutSection = () => {
@@ -75,7 +98,13 @@ const AboutSection = () => {
     });
   };
   return (
-    <motion.section className="text-white" id="about" initial={{ opacity: 0, x: -100 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, ease: "easeOut" }}>
+    <motion.section
+      className="text-white"
+      id="about"
+      initial={{ opacity: 0, x: -100 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about.png"
@@ -116,6 +145,13 @@ const AboutSection = () => {
             >
               {" "}
               Certifications{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("working-experience")}
+              active={tab === "working-experience"}
+            >
+              {" "}
+              Working Experience{" "}
             </TabButton>
           </div>
           <div className="mt-8">
