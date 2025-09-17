@@ -89,6 +89,16 @@ const projectsData = [
     gitUrl: "",
     demoUrl: "https://codegym-production.vercel.app/",
   },
+  {
+    id: 10,
+    title: "Notes App",
+    description:
+      "Mainly focusing on Next.js, Typescript, Zustand, and TailwindCSS as Frontend and Next.js, Prisma as Backend",
+    image: "/images/projects/10.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ryudhis/notes-app-ryudhis",
+    demoUrl: "https://notes-app-ryudhis.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
