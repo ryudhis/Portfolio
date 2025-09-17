@@ -99,6 +99,16 @@ const projectsData = [
     gitUrl: "https://github.com/ryudhis/notes-app-ryudhis",
     demoUrl: "https://notes-app-ryudhis.vercel.app/",
   },
+  {
+    id: 10,
+    title: "Eventhings",
+    description:
+      "Mainly focusing on Next.js, Typescript, Zustand, and TailwindCSS as Frontend",
+    image: "/images/projects/11.png",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    demoUrl: "",
+  },
 ];
 
 const ProjectsSection = () => {
