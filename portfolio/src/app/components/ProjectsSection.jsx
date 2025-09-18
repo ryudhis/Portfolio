@@ -122,8 +122,8 @@ const ProjectsSection = () => {
   return (
     <motion.section
       id="projects"
-      initial={{ opacity: 0, x: 100 }}
-      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8">

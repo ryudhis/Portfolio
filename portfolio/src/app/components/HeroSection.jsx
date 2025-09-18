@@ -9,8 +9,8 @@ const HeroSection = () => {
   return (
     <motion.section
       id="hero"
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="grid grid-cols-1 sm:grid-cols-12">

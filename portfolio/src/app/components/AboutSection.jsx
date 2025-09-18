@@ -101,8 +101,8 @@ const AboutSection = () => {
     <motion.section
       className="text-white"
       id="about"
-      initial={{ opacity: 0, x: -100 }}
-      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
@@ -124,7 +124,7 @@ const AboutSection = () => {
             impactful digital products. I am currently open to full-time
             opportunities and freelance projects in software engineering.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="grid grid-cols-2 gap-4 lg:grid-cols-4 justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
@@ -151,7 +151,7 @@ const AboutSection = () => {
               active={tab === "working-experience"}
             >
               {" "}
-              Working Experience{" "}
+              Experience{" "}
             </TabButton>
           </div>
           <div className="mt-8">
