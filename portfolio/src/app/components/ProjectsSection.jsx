@@ -8,7 +8,8 @@ const projectsData = [
   {
     id: 1,
     title: "Youtube Clone",
-    description: "Mainly focusing on HTML and CSS",
+    description:
+      "A front-end replica of YouTube’s interface built with HTML and CSS. Focused on mastering responsive layouts, grid systems, and video player styling.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ryudhis/Youtube-Project",
@@ -17,7 +18,8 @@ const projectsData = [
   {
     id: 2,
     title: "Amazon Clone",
-    description: "Mainly focusing on HTML, CSS, and Javascript",
+    description:
+      "An e-commerce UI clone of Amazon using HTML, CSS, and JavaScript. Features product listings, cart interactions, and a responsive design to practice DOM manipulation.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ryudhis/Amazon-Project-on-progress",
@@ -26,7 +28,8 @@ const projectsData = [
   {
     id: 3,
     title: "Pemira ITERA 2023",
-    description: "Mainly focusing on HTML, TailwindCSS, and Javascript",
+    description:
+      "A student election system website for ITERA, developed with HTML, TailwindCSS, and JavaScript. Provided a platform for candidate information and voting simulation, used during the 2023 campus election event.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/PemiraITERA",
@@ -35,7 +38,8 @@ const projectsData = [
   {
     id: 4,
     title: "Posyandu Mawar I Way Huwi Management Website",
-    description: "Mainly focusing on Next.js and TailwindCSS",
+    description:
+      "A management system for a local healthcare center built with Next.js and TailwindCSS. Includes patient data management, scheduling, and reporting to streamline community health services.",
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Kaben011201/TUBES_KAPITA_SELEKTA_09_2023",
@@ -44,7 +48,8 @@ const projectsData = [
   {
     id: 5,
     title: "Dicodit - Dicoding Reddit Forum",
-    description: "Mainly focusing on ReactJS, Redux and API Integration",
+    description:
+      "A forum web app inspired by Reddit, developed with ReactJS, Redux, and API integration. Supports user authentication, post creation, comments, and voting features.",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ryudhis/dicodit",
@@ -54,7 +59,7 @@ const projectsData = [
     id: 6,
     title: "Otak-Atik: Aplikasi Belajar Untuk Semua",
     description:
-      "Mainly focusing on Next.js, Typescript, and TailwindCSS as Frontend and Next.js, Prisma, and CockroackDB as Backend",
+      "A marketplace educational platform designed for inclusive learning. Built with Next.js, TypeScript, and TailwindCSS on the frontend, and Next.js API routes, Prisma, and CockroachDB on the backend. Features authentication, user management, teachers can create and sell courses, and students can browse, purchase, and learn from those courses.",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ryudhis/Otak-Atik",
@@ -63,7 +68,8 @@ const projectsData = [
   {
     id: 7,
     title: "Vocasawer",
-    description: "Mainly focusing on Next.js, TailwindCSS, and Zustand",
+    description:
+      "A streamer donation prototype using Next.js, TailwindCSS, and Zustand. Enables donors to support streamers.",
     image: "/images/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "",
@@ -73,7 +79,7 @@ const projectsData = [
     id: 8,
     title: "OBE (Outcome-based Education) System ITERA",
     description:
-      "Mainly focusing on Next.js, Typescript, and TailwindCSS as Frontend and Next.js, Prisma, and PostgreSQL as Backend",
+      "An academic management system for tracking student learning outcomes at ITERA. Built with Next.js, TypeScript, Prisma, and PostgreSQL. Features Excel import/export, assessment templates, and dynamic evaluation workflows.",
     image: "/images/projects/8.png",
     tag: ["All", "Web"],
     gitUrl: "",
@@ -83,7 +89,7 @@ const projectsData = [
     id: 9,
     title: "CodeGym",
     description:
-      "Mainly focusing on Next.js, Typescript, and TailwindCSS as Frontend and Next.js, Prisma, and Supabase as Backend",
+      "A gamified coding exercise platform with user authentication, quizzes, and challenge submissions. Developed using Next.js, TypeScript, Prisma, and Supabase. Features personalized learning paths and progress tracking.",
     image: "/images/projects/9.png",
     tag: ["All", "Web"],
     gitUrl: "",
@@ -93,17 +99,17 @@ const projectsData = [
     id: 10,
     title: "Notes App",
     description:
-      "Mainly focusing on Next.js, Typescript, Zustand, and TailwindCSS as Frontend and Next.js, Prisma as Backend",
+      "A full-stack notes management app built with Next.js, TypeScript, Zustand, TailwindCSS (frontend) and Prisma (backend). Supports authentication, rich-text notes, and persistent storage with CRUD operations.",
     image: "/images/projects/10.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ryudhis/notes-app-ryudhis",
     demoUrl: "https://notes-app-ryudhis.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Eventhings",
     description:
-      "Mainly focusing on Next.js, Typescript, Zustand, and TailwindCSS as Frontend",
+      "An event management web app built with Next.js, TypeScript, Zustand, and TailwindCSS. Allows users to create, manage, and browse events with a clean and responsive UI.",
     image: "/images/projects/11.png",
     tag: ["All", "Web"],
     gitUrl: "",
