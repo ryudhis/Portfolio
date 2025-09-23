@@ -10,15 +10,18 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-4">
-        <li>ReactJS</li>
-        <li>NextJS</li>
+        <li>Next.js</li>
+        <li>React JS</li>
         <li>Javascript</li>
-        <li>TailwindCSS</li>
         <li>TypeScript</li>
-        <li>Redux</li>
         <li>Node.js</li>
-        <li>Prisma</li>
+        <li>Express.js</li>
+        <li>Prisma ORM</li>
         <li>Zustand</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB</li>
+        <li>HTML</li>
+        <li>TailwindCSS</li>
         <li>PHP</li>
         <li>C++</li>
         <li>Java</li>
