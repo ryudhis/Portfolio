@@ -77,11 +77,10 @@ const TAB_DATA = [
           Sumatera (March 2024 - August 2025)
         </li>
         <li>
-          Freelance as Frontend Engineer at Eventhings (February 2025 - May
-          2025)
+          Freelance as Frontend Engineer at Eventhings (January 2025 - May 2025)
         </li>
         <li>
-          Internship as Product Engineer at Dicoding Indonesia (September 2024 -
+          Internship as Product Engineer at Dicoding Indonesia (August 2024 -
           December 2024)
         </li>
         <li>
