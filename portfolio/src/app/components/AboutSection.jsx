@@ -72,6 +72,7 @@ const TAB_DATA = [
     id: "working-experience",
     content: (
       <ul className="list-disc pl-4">
+        <li>Software Engineer at Sapta Group (October 2025 - Present)</li>
         <li>
           Capstone Final Project as Fullstack Engineer at Institut Teknologi
           Sumatera (March 2024 - August 2025)

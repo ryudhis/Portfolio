@@ -115,6 +115,16 @@ const projectsData = [
     gitUrl: "",
     demoUrl: "",
   },
+  {
+    id: 12,
+    title: "Nuxt Chat Bot",
+    description:
+      "A chat application built with Nuxt.js. Supports real-time messaging and user authentication with logto.",
+    image: "/images/projects/12.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ryudhis/nuxt-chat-bot",
+    demoUrl: "https://nuxt-chat-bot.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
