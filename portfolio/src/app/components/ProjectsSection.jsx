@@ -130,7 +130,7 @@ const projectsData = [
     title: "Ryudhis Company Profile",
     description:
       "A company profile website built with Next.js. Showcases the company's about, services, and contact information. Features admin dashboard for managing content.",
-    image: "/images/projects/12.png",
+    image: "/images/projects/13.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ryudhis/ryudhis-company-profile",
     demoUrl: "https://ryudhis-company-profile.vercel.app/",
