@@ -125,6 +125,16 @@ const projectsData = [
     gitUrl: "https://github.com/ryudhis/nuxt-chat-bot",
     demoUrl: "https://nuxt-chat-bot.vercel.app/",
   },
+  {
+    id: 13,
+    title: "Ryudhis Company Profile",
+    description:
+      "A company profile website built with Next.js. Showcases the company's about, services, and contact information. Features admin dashboard for managing content.",
+    image: "/images/projects/12.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ryudhis/ryudhis-company-profile",
+    demoUrl: "https://ryudhis-company-profile.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
