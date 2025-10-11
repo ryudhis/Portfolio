@@ -9,9 +9,10 @@ const projectsData = [
     id: 1,
     title: "Youtube Clone",
     description:
-      "A front-end replica of YouTube’s interface built with HTML and CSS. Focused on mastering responsive layouts, grid systems, and video player styling.",
+      "A pixel-perfect recreation of YouTube’s interface designed to practice responsive layouts and precise visual details.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
+    tech: ["HTML", "CSS"],
     gitUrl: "https://github.com/ryudhis/Youtube-Project",
     demoUrl: "https://youtube-project-murex.vercel.app/",
   },
@@ -19,9 +20,10 @@ const projectsData = [
     id: 2,
     title: "Amazon Clone",
     description:
-      "An e-commerce UI clone of Amazon using HTML, CSS, and JavaScript. Features product listings, cart interactions, and a responsive design to practice DOM manipulation.",
+      "An e-commerce mockup inspired by Amazon. Includes product listings, cart interactions, and adaptive layouts built to refine UI structure and dynamic user flow handling.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
+    tech: ["HTML", "CSS", "JavaScript"],
     gitUrl: "https://github.com/ryudhis/Amazon-Project-on-progress",
     demoUrl: "https://amazon-project-eta.vercel.app/",
   },
@@ -29,9 +31,10 @@ const projectsData = [
     id: 3,
     title: "Pemira ITERA 2023",
     description:
-      "A student election system website for ITERA, developed with HTML, TailwindCSS, and JavaScript. Provided a platform for candidate information and voting simulation, used during the 2023 campus election event.",
+      "A web platform built for the 2023 ITERA student election event. It provided candidate profiles and served as the main hub during the election campaign.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
+    tech: ["HTML", "TailwindCSS", "JavaScript"],
     gitUrl: "https://github.com/PemiraITERA",
     demoUrl: "",
   },
@@ -39,9 +42,10 @@ const projectsData = [
     id: 4,
     title: "Posyandu Mawar I Way Huwi Management Website",
     description:
-      "A management system for a local healthcare center built with Next.js and TailwindCSS. Includes patient data management, scheduling, and reporting to streamline community health services.",
+      "A digital management tool for a local healthcare center, helping staff record patient data, schedule checkups, and generate reports to support daily health services.",
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
+    tech: ["Next.js", "Prisma", "TailwindCSS"],
     gitUrl: "https://github.com/Kaben011201/TUBES_KAPITA_SELEKTA_09_2023",
     demoUrl: "",
   },
@@ -49,9 +53,10 @@ const projectsData = [
     id: 5,
     title: "Dicodit - Dicoding Reddit Forum",
     description:
-      "A forum web app inspired by Reddit, developed with ReactJS, Redux, and API integration. Supports user authentication, post creation, comments, and voting features.",
+      "A Reddit-style discussion forum where users can post, comment, and vote on topics. Designed to explore community interactions",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
+    tech: ["React", "Redux", "Node.js"],
     gitUrl: "https://github.com/ryudhis/dicodit",
     demoUrl: "https://dicodit.vercel.app/",
   },
@@ -59,9 +64,10 @@ const projectsData = [
     id: 6,
     title: "Otak-Atik: Aplikasi Belajar Untuk Semua",
     description:
-      "A marketplace educational platform designed for inclusive learning. Built with Next.js, TypeScript, and TailwindCSS on the frontend, and Next.js API routes, Prisma, and CockroachDB on the backend. Features authentication, user management, teachers can create and sell courses, and students can browse, purchase, and learn from those courses.",
+      "An inclusive learning marketplace that connects teachers and students. Instructors can create and sell courses, while learners can explore, purchase, and follow personalized lessons.",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
+    tech: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "PostgreSQL"],
     gitUrl: "https://github.com/ryudhis/Otak-Atik",
     demoUrl: "https://Otak-Atik.vercel.app/",
   },
@@ -69,9 +75,10 @@ const projectsData = [
     id: 7,
     title: "Vocasawer",
     description:
-      "A streamer donation prototype using Next.js, TailwindCSS, and Zustand. Enables donors to support streamers.",
+      "A donation prototype for streamers, allowing supporters to send contributions and messages in a simple, interactive way inspired by real-world tipping platforms.",
     image: "/images/projects/7.png",
     tag: ["All", "Web"],
+    tech: ["Next.js", "TailwindCSS", "Zustand"],
     gitUrl: "",
     demoUrl: "",
   },
@@ -79,9 +86,10 @@ const projectsData = [
     id: 8,
     title: "OBE (Outcome-based Education) System ITERA",
     description:
-      "An academic management system for tracking student learning outcomes at ITERA. Built with Next.js, TypeScript, Prisma, and PostgreSQL. Features Excel import/export, assessment templates, and dynamic evaluation workflows.",
+      "A university-grade curriculum management system for tracking student learning outcomes. Features include assessment templates, performance tracking, and Excel import/export tools.",
     image: "/images/projects/8.png",
     tag: ["All", "Web"],
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
     gitUrl: "",
     demoUrl: "",
   },
@@ -89,9 +97,10 @@ const projectsData = [
     id: 9,
     title: "CodeGym",
     description:
-      "A gamified coding exercise platform with user authentication, quizzes, and challenge submissions. Developed using Next.js, TypeScript, Prisma, and Supabase. Features personalized learning paths and progress tracking.",
+      "A gamified learning platform where users can take coding quizzes, complete challenges, and monitor their progress through personalized learning paths.",
     image: "/images/projects/9.png",
     tag: ["All", "Web"],
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
     gitUrl: "",
     demoUrl: "https://codegym-production.vercel.app/",
   },
@@ -99,9 +108,17 @@ const projectsData = [
     id: 10,
     title: "Notes App",
     description:
-      "A full-stack notes management app built with Next.js, TypeScript, Zustand, TailwindCSS (frontend) and Prisma (backend). Supports authentication, rich-text notes, and persistent storage with CRUD operations.",
+      "A modern note-taking app that supports authentication, rich-text editing, and persistent storage. Designed for simplicity, speed, and everyday productivity.",
     image: "/images/projects/10.png",
     tag: ["All", "Web"],
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Zustand",
+      "TailwindCSS",
+      "Prisma",
+      "PostgreSQL",
+    ],
     gitUrl: "https://github.com/ryudhis/notes-app-ryudhis",
     demoUrl: "https://notes-app-ryudhis.vercel.app/",
   },
@@ -109,9 +126,10 @@ const projectsData = [
     id: 11,
     title: "Eventhings",
     description:
-      "An event management web app built with Next.js, TypeScript, Zustand, and TailwindCSS. Allows users to create, manage, and browse events with a clean and responsive UI.",
+      "An event management web app for creating, managing, and discovering public or private events. Features a clean dashboard and responsive design for seamless browsing.",
     image: "/images/projects/11.png",
     tag: ["All", "Web"],
+    tech: ["Next.js", "TypeScript", "Zustand", "TailwindCSS"],
     gitUrl: "",
     demoUrl: "",
   },
@@ -119,9 +137,10 @@ const projectsData = [
     id: 12,
     title: "Nuxt Chat Bot",
     description:
-      "A chat application built with Nuxt.js. Supports real-time messaging and user authentication with logto.",
+      "A real-time chat application with user authentication and private messaging. Built to experiment with live communication and modern UI patterns.",
     image: "/images/projects/12.png",
     tag: ["All", "Web"],
+    tech: ["Nuxt.js", "Logto", "TailwindCSS", "Prisma", "PostgreSQL"],
     gitUrl: "https://github.com/ryudhis/nuxt-chat-bot",
     demoUrl: "https://nuxt-chat-bot.vercel.app/",
   },
@@ -129,9 +148,10 @@ const projectsData = [
     id: 13,
     title: "Ryudhis Company Profile",
     description:
-      "A company profile website built with Next.js. Showcases the company's about, services, and contact information. Features admin dashboard for managing content.",
+      "A company profile website showcasing business info, services, and contact details. Includes an admin dashboard for updating content easily.",
     image: "/images/projects/13.png",
     tag: ["All", "Web"],
+    tech: ["Next.js", "TailwindCSS", "Prisma", "PostgreSQL"],
     gitUrl: "https://github.com/ryudhis/ryudhis-company-profile",
     demoUrl: "https://ryudhis-company-profile.vercel.app/",
   },
@@ -174,7 +194,7 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imgUrl={project.image}
-            tags={project.tag}
+            tags={project.tech}
             gitUrl={project.gitUrl}
             demoUrl={project.demoUrl}
           />

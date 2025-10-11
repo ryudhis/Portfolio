@@ -35,12 +35,25 @@ const ProjectCard = (props) => {
       <div className="text-white rounded-b-xl bg-[#181818] flex-grow py-6 px-4 ">
         <h5
           className={`${
-            props.title > 15 ? "text-lg" : "text-xl"
+            props.title && props.title.length > 15 ? "text-lg" : "text-xl"
           } font-semibold mb-2`}
         >
           {props.title}
         </h5>
+
         <p className="text-[#ADB7BE]">{props.description}</p>
+        <div className="flex flex-wrap gap-2 py-3">
+          {(props.tags || [])
+            .filter((t) => t && t !== "All")
+            .map((t, i) => (
+              <span
+                key={i}
+                className="inline-flex items-center text-sm text-[#ADB7BE] bg-[#0f0f0f] bg-opacity-30 border border-purple-500 px-3 py-1 rounded-full"
+              >
+                {t}
+              </span>
+            ))}
+        </div>
       </div>
     </div>
   );
