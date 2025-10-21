@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ProjectCard = (props) => {
   return (
-    <div className="cursor-pointer h-[450px] w-[350px] md:w-[440px] lg:w-[440px] xl:w-[450px] flex flex-col">
+    <div className="cursor-pointer h-[450px] w-[350px] md:w-[440px] lg:w-[440px] xl:w-[450px] flex flex-col hover:shadow-md hover:shadow-purple-500 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out overflow-hidden">
       <div
         style={{
           background: `url(${props.imgUrl})`,
@@ -32,7 +32,7 @@ const ProjectCard = (props) => {
           ) : null}
         </div>
       </div>
-      <div className="text-white rounded-b-xl bg-[#181818] flex-grow py-6 px-4 ">
+      <div className="text-white rounded-b-xl bg-[#181818] flex-grow py-6 px-4 border-b-2 border-purple-500">
         <h5
           className={`${
             props.title && props.title.length > 15 ? "text-lg" : "text-xl"
