@@ -188,7 +188,7 @@ const ProjectsSection = () => {
         />
       </div>
       <div className="flex flex-wrap gap-8 justify-center items-center">
-        {filteredProjects.map((project) => (
+        {[...filteredProjects].reverse().map((project) => (
           <ProjectCard
             key={project.id}
             title={project.title}

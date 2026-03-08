@@ -12,20 +12,23 @@ const TAB_DATA = [
       <ul className="list-disc pl-4">
         <li>Next.js</li>
         <li>React JS</li>
-        <li>Javascript</li>
         <li>TypeScript</li>
-        <li>Node.js</li>
+        <li>Javascript</li>
+        <li>Nest.js</li>
         <li>Express.js</li>
+        <li>Node.js</li>
         <li>Prisma ORM</li>
         <li>Zustand</li>
         <li>PostgreSQL</li>
         <li>MongoDB</li>
+        <li>Golang</li>
         <li>HTML</li>
         <li>TailwindCSS</li>
         <li>PHP</li>
         <li>C++</li>
         <li>Java</li>
         <li>Python</li>
+        <li>Project Management</li>
       </ul>
     ),
   },
