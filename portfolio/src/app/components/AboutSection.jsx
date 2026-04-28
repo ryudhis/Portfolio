@@ -22,13 +22,15 @@ const TAB_DATA = [
         <li>PostgreSQL</li>
         <li>MongoDB</li>
         <li>Golang</li>
+        <li>Vue.js</li>
+        <li>Nuxt</li>
         <li>HTML</li>
         <li>TailwindCSS</li>
         <li>PHP</li>
         <li>C++</li>
         <li>Java</li>
         <li>Python</li>
-        <li>Project Management</li>
+        <li>Rest API</li>
       </ul>
     ),
   },
@@ -53,6 +55,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-4">
+        <li>TOEFL 557/677 Score (2025)</li>
         <li>
           Third Best Graduate – August 2025 Judicium Ceremony, Faculty of
           Industrial Technology, Institut Teknologi Sumatera (2025)
@@ -75,7 +78,7 @@ const TAB_DATA = [
     id: "working-experience",
     content: (
       <ul className="list-disc pl-4">
-        <li>Software Engineer at Sapta Group (October 2025 - Present)</li>
+        <li>Software Engineer at Sapta Group (October 2025 - April 2026)</li>
         <li>
           Capstone Final Project as Fullstack Engineer at Institut Teknologi
           Sumatera (March 2024 - August 2025)
