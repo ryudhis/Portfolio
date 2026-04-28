@@ -4,14 +4,14 @@ import Link from "next/link";
 
 const ProjectCard = (props) => {
   return (
-    <div className="cursor-pointer h-[450px] w-[350px] md:w-[440px] lg:w-[440px] xl:w-[450px] flex flex-col hover:shadow-md hover:shadow-purple-500 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out overflow-hidden">
+    <div className="cursor-pointer h-[580px] w-[350px] md:w-[440px] lg:w-[440px] xl:w-[450px] flex flex-col hover:shadow-md hover:shadow-purple-500 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out overflow-hidden">
       <div
         style={{
           background: `url(${props.imgUrl})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="h-2/3 rounded-t-xl relative group"
+        className="h-[320px] rounded-t-xl relative group flex-shrink-0"
       >
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500">
           {props.gitUrl ? (
@@ -32,7 +32,7 @@ const ProjectCard = (props) => {
           ) : null}
         </div>
       </div>
-      <div className="text-white rounded-b-xl bg-[#181818] flex-grow py-6 px-4 border-b-2 border-purple-500">
+      <div className="text-white rounded-b-xl bg-[#181818] flex h-[260px] flex-col border-b-2 border-purple-500 py-7 px-4 overflow-hidden">
         <h5
           className={`${
             props.title && props.title.length > 15 ? "text-lg" : "text-xl"
@@ -41,8 +41,17 @@ const ProjectCard = (props) => {
           {props.title}
         </h5>
 
-        <p className="text-[#ADB7BE]">{props.description}</p>
-        <div className="flex flex-wrap gap-2 py-3">
+        <p
+          className="text-[#ADB7BE] leading-6 overflow-hidden text-ellipsis"
+          style={{
+            display: "-webkit-box",
+            WebkitLineClamp: 3,
+            WebkitBoxOrient: "vertical",
+          }}
+        >
+          {props.description}
+        </p>
+        <div className="mt-auto flex flex-wrap gap-2 pt-4">
           {(props.tags || [])
             .filter((t) => t && t !== "All")
             .map((t, i) => (
