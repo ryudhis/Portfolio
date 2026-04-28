@@ -155,6 +155,58 @@ const projectsData = [
     gitUrl: "https://github.com/ryudhis/ryudhis-company-profile",
     demoUrl: "https://ryudhis-company-profile.vercel.app/",
   },
+  {
+    id: 14,
+    title: "Sapta Internal System",
+    description:
+      "An internal management system for a company, designed to streamline operations and improve efficiency. Features include funding requests, financial reports, and inventory management.",
+    image: "/images/projects/14.png",
+    tag: ["All", "Web"],
+    tech: ["Next.js", "TailwindCSS", "Golang", "PostgreSQL"],
+    gitUrl: "",
+    demoUrl: "",
+  },
+  {
+    id: 15,
+    title: "Sapta Investa",
+    description:
+      "An external investment management and tracking system for a company to manage its investments and financial performance. Features include portfolio tracking, performance analytics, and reporting tools.",
+    image: "/images/projects/15.png",
+    tag: ["All", "Web"],
+    tech: ["Next.js", "TailwindCSS", "Prisma", "PostgreSQL"],
+    gitUrl: "",
+    demoUrl: "",
+  },
+  {
+    id: 16,
+    title: "Best7 Online Food Ordering",
+    description:
+      "An online food ordering platform for a cafe, allowing customers to browse the menu, place orders, make payments online, and get the food delivered. Designed to enhance the dining experience and streamline cafe operations.",
+    image: "/images/projects/16.png",
+    tag: ["All", "Web"],
+    tech: [
+      "Next.js",
+      "TailwindCSS",
+      "Prisma",
+      "PostgreSQL",
+      "React Leaflet",
+      "OSM API",
+      "Midtrans API",
+    ],
+    gitUrl: "",
+    demoUrl: "",
+  },
+  {
+    id: 17,
+    title: "PromptPage",
+    description:
+      "A web page generator that turns product info into stunning sales pages in seconds. Powered by AI, it creates high-converting sales pages that captivate your audience and drive results.",
+    image: "/images/projects/17.png",
+    tag: ["All", "Web"],
+    tech: ["Next.js", "TailwindCSS", "Prisma", "PostgreSQL"],
+    gitUrl: "https://github.com/ryudhis/prompt-page",
+    demoUrl: "https://prompt-page-coral.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -163,7 +215,7 @@ const ProjectsSection = () => {
     setTag(newTag);
   };
   const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
+    project.tag.includes(tag),
   );
   return (
     <motion.section
